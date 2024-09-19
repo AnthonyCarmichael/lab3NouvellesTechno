@@ -5,8 +5,9 @@ using namespace std;
 
 int main()
 {
-
-	cout << "Hello world" << endl;
+	string nom = "";
+	cout << "Hello world" << endl << "Entrer votre nom";
 	system("pause");
+	cin >> nom;
 	return 0;
 }
